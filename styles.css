@@ -4,7 +4,6 @@
   --text: #202020;
   --muted: #5f6368;
   --line: #d8d8d2;
-  --line-strong: #c7c7be;
   --accent: #1f4f63;
   --accent-dark: #173b4a;
   --max-width: 940px;
@@ -94,11 +93,7 @@ a:focus {
 }
 
 .header-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
-  gap: 2rem;
   padding: 3rem 0 2.25rem;
-  align-items: start;
 }
 
 .eyebrow {
@@ -141,31 +136,22 @@ p {
 }
 
 .research-summary {
-  max-width: 680px;
+  max-width: 760px;
   margin: 1.25rem 0 0;
   font-size: 1.08rem;
 }
 
 .academic-links {
-  display: grid;
-  gap: 0.32rem;
-  padding-top: 0.55rem;
-  border-top: 2px solid var(--line-strong);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin-top: 1.15rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.94rem;
 }
 
-.academic-links span {
-  margin-bottom: 0.2rem;
-  color: var(--muted);
-  font-size: 0.72rem;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
 .academic-links a {
   display: inline-block;
-  width: fit-content;
 }
 
 .main-grid {
@@ -274,8 +260,6 @@ address {
   }
 
   .header-grid {
-    grid-template-columns: 1fr;
-    gap: 1.35rem;
     padding: 2.2rem 0 1.8rem;
   }
 
@@ -288,14 +272,7 @@ address {
   }
 
   .academic-links {
-    grid-template-columns: repeat(2, minmax(0, max-content));
-    gap: 0.32rem 1.25rem;
-    padding-top: 0;
-    border-top: 0;
-  }
-
-  .academic-links span {
-    grid-column: 1 / -1;
+    gap: 0.2rem 0.9rem;
   }
 
   .interest-list {
@@ -306,10 +283,6 @@ address {
 @media (max-width: 430px) {
   .container {
     width: min(var(--max-width), calc(100% - 1.25rem));
-  }
-
-  .academic-links {
-    grid-template-columns: 1fr;
   }
 
   h1 {
