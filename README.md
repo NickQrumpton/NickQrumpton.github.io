@@ -21,7 +21,7 @@ Then visit `http://localhost:8000`.
 ## Placeholder Checklist
 
 - Confirm the GitHub profile URL.
-- Add publication and preprint titles, authors, venues, dates, PDFs, arXiv links, and code links.
+- Add future publication entries and any PDF or code links as needed.
 - Add project repository links and descriptions.
 - Add talk and poster titles, event names, dates, slides, and poster PDFs.
 - Add a CV PDF and update the CV link.
