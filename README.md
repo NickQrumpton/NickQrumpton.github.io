@@ -25,4 +25,3 @@ Then visit `http://localhost:8000`.
 - Add project repository links and descriptions.
 - Add talk and poster titles, event names, dates, slides, and poster PDFs.
 - Add a CV PDF and update the CV link.
-- Replace the footer update date.
