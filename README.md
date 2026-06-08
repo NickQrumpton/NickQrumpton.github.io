@@ -6,6 +6,8 @@ Minimal static GitHub Pages homepage for Nicholas Zhao.
 
 - `index.html` contains the page structure and academic content placeholders.
 - `styles.css` contains the responsive styling.
+- `robots.txt` allows crawlers and points them to the sitemap.
+- `sitemap.xml` lists the canonical homepage URL for search engines.
 - `README.md` documents the site.
 
 ## Local Preview
