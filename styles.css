@@ -59,18 +59,9 @@ a:focus-visible {
 .nav-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 2rem;
   min-height: 4.25rem;
-}
-
-.site-mark {
-  flex: 0 0 auto;
-  color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.98rem;
-  font-weight: 600;
-  text-decoration: none;
 }
 
 .section-tabs {
@@ -237,11 +228,6 @@ address {
     display: block;
     min-height: 0;
     padding: 1rem 0 0.85rem;
-  }
-
-  .site-mark {
-    display: inline-block;
-    margin-bottom: 0.55rem;
   }
 
   .section-tabs {
