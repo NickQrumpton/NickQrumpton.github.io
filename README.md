@@ -23,7 +23,14 @@ Then visit `http://localhost:8000`.
 ## Maintenance
 
 - Update publications with links to papers, preprints, code, and related pages.
-- Add `cv.pdf` when the CV is ready.
+- Add `cv.pdf` when the CV is ready, then replace the CV placeholder with a download link.
 - Add repository links when project code is available.
 - Add talks, slides, and event details as they become public.
 - Keep `sitemap.xml` current when the canonical URL or main page changes.
+
+## Pre-Push Checks
+
+- Confirm there are no broken local links such as missing PDFs.
+- Preview the site locally before pushing.
+- Check the live GitHub Pages URL after deployment.
+- Keep the GitHub Pages repository name aligned with the GitHub username.
