@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nickqrumpton.github.io/sitemap.xml
+Sitemap: https://nicholaszhao-19.github.io/sitemap.xml
