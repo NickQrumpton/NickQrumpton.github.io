@@ -1,14 +1,14 @@
 # Nicholas Zhao Academic Homepage
 
-Minimal static GitHub Pages homepage for Nicholas Zhao.
+Source files for Nicholas Zhao's academic [homepage](https://nicholaszhao-19.github.io/).
+The site is a minimal static GitHub Pages site built with HTML and CSS only.
 
 ## Files
 
-- `index.html` contains the page structure and academic content placeholders.
+- `index.html` contains the page content and metadata.
 - `styles.css` contains the responsive styling.
-- `robots.txt` allows crawlers and points them to the sitemap.
-- `sitemap.xml` lists the canonical homepage URL for search engines.
-- `README.md` documents the site.
+- `robots.txt` allows crawler access and points to the sitemap.
+- `sitemap.xml` lists the canonical homepage URL.
 
 ## Local Preview
 
@@ -20,9 +20,9 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Placeholder Checklist
+## Maintenance
 
-- Confirm the GitHub profile URL.
-- Add future publication entries and any PDF or code links as needed.
-- Add project repository links and descriptions.
-- Add talk and poster titles, event names, dates, slides, and poster PDFs.
+- Update publications with links to papers, preprints, code, and related pages.
+- Add repository links when project code is available.
+- Add talks, slides, and event details as they become public.
+- Keep `sitemap.xml` current when the canonical URL or main page changes.
