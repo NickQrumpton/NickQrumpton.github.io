@@ -23,6 +23,7 @@ Then visit `http://localhost:8000`.
 ## Maintenance
 
 - Update publications with links to papers, preprints, code, and related pages.
+- Add `cv.pdf` when the CV is ready.
 - Add repository links when project code is available.
 - Add talks, slides, and event details as they become public.
 - Keep `sitemap.xml` current when the canonical URL or main page changes.
